@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.blog-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.column {
+    background-color: white;
+	
+    flex: 1 1 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.column h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.column ul {
+    list-style: none;
+}
+
+.column ul li {
+    padding: 6px 0;
+    font-size: 14px;
+    color: #333;
+}
